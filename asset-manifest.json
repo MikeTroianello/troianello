@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/troianello/static/css/main.20d544dd.chunk.css",
+    "main.js": "/troianello/static/js/main.4aab69b1.chunk.js",
+    "main.js.map": "/troianello/static/js/main.4aab69b1.chunk.js.map",
+    "runtime~main.js": "/troianello/static/js/runtime~main.3af5dd8a.js",
+    "runtime~main.js.map": "/troianello/static/js/runtime~main.3af5dd8a.js.map",
+    "static/css/2.510409cd.chunk.css": "/troianello/static/css/2.510409cd.chunk.css",
+    "static/js/2.1f5dfb05.chunk.js": "/troianello/static/js/2.1f5dfb05.chunk.js",
+    "static/js/2.1f5dfb05.chunk.js.map": "/troianello/static/js/2.1f5dfb05.chunk.js.map",
+    "index.html": "/troianello/index.html",
+    "precache-manifest.a8c334dc4c5c0fed463b21d8f9938546.js": "/troianello/precache-manifest.a8c334dc4c5c0fed463b21d8f9938546.js",
+    "service-worker.js": "/troianello/service-worker.js",
+    "static/css/2.510409cd.chunk.css.map": "/troianello/static/css/2.510409cd.chunk.css.map",
+    "static/css/main.20d544dd.chunk.css.map": "/troianello/static/css/main.20d544dd.chunk.css.map",
+    "static/media/css3.png": "/troianello/static/media/css3.3f8e68f4.png",
+    "static/media/express2.png": "/troianello/static/media/express2.e7256fcc.png",
+    "static/media/javascript.png": "/troianello/static/media/javascript.7f130501.png",
+    "static/media/jquery.png": "/troianello/static/media/jquery.b3c5133f.png",
+    "static/media/mongoDB2.png": "/troianello/static/media/mongoDB2.ecc6f9e5.png",
+    "static/media/react.png": "/troianello/static/media/react.47ce6e77.png",
+    "static/media/sass.png": "/troianello/static/media/sass.084f0cf8.png"
+  }
+}
