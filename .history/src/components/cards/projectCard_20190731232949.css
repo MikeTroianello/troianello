@@ -1,0 +1,211 @@
+/* .project-card {
+  border: 1px solid black;
+  width: 20vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+} */
+
+.Full-Stack-Web-App {
+  background: rgb(254, 252, 252, 0.5);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 440px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .main-project :hover {
+  color: black;
+} */
+
+.Game {
+  background: rgba(203, 230, 196, 0.59);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 440px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .game :hover{
+
+} */
+
+.Codepen {
+  background: rgba(232, 247, 228, 0.59);
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 440px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .codepen :hover{
+  
+} */
+
+.Proof-of-Concept {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 440px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .proof-of-concept :hover{
+  
+} */
+
+.project-card-link {
+  text-decoration: none !important;
+  border: none;
+}
+
+.project-card-link :hover {
+  background: rgba(182, 178, 178, 0.9);
+}
+
+.project-card-h1 {
+  pointer-events: none;
+}
+
+.project-card-category {
+  pointer-events: none;
+}
+
+.project-card-image {
+  pointer-events: none;
+  border: 2px solid black;
+  width: 315px;
+  height: 145px;
+  background-color: gray;
+}
+
+.project-card-description {
+  pointer-events: none;
+  pointer-events: none;
+  margin: 6px 0;
+  font-size: 21px;
+}
+
+.project-card-list {
+  pointer-events: none;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.project-cart-technologies {
+  pointer-events: none;
+  text-align: center;
+  font-size: 23px;
+  margin: 10px;
+  padding: 0px 19px;
+}
+
+/* FOR RAINBOW DAY ONLY */
+
+.project-card-image-rainbow {
+  pointer-events: none;
+  border: 2px solid black;
+  width: 315px;
+  height: 135px;
+  background-color: white;
+  margin: 0px auto;
+}
+
+.color-bar {
+  width: 75.6%;
+  margin: 14% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.black-bar {
+  pointer-events: none;
+  background: black;
+  -webkit-background-clip: text;
+  animation: loading 15s infinite;
+}
+
+#day {
+  pointer-events: none;
+  white-space: nowrap;
+  position: static;
+  color: transparent;
+}
+
+@keyframes loading {
+  from {
+    left: 0;
+    width: 100%;
+  }
+  2% {
+    left: 0;
+    width: 100%;
+  }
+  6% {
+    left: 0;
+    width: 0;
+  }
+  22% {
+    left: 0;
+    width: 0;
+  }
+  24% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}
+
+/* END OF RAINBOW DAY */
+
+/* FOR CANVAS BUBBLES ONLY */
+
+.project-card-image-bubbles {
+  pointer-events: none;
+  border: 2px solid black;
+  width: 315px;
+  height: 135px;
+  background-color: white;
+  margin: 0px auto;
+}

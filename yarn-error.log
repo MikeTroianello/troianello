@@ -1,0 +1,67 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn run build
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Frameworks/Mono.framework/Versions/Current/Commands
+
+Yarn version: 
+  1.15.2
+
+Node version: 
+  10.15.3
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/miketroianello/Desktop/Personal-Projects/troianello.co/package.json: Unexpected token } in JSON at position 534
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:304:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "troianello.co",
+    "version": "0.1.0",
+    "private": true,
+    "homepage": "https://troianello.github.io",
+    "dependencies": {
+      "bootstrap": "^4.3.1",
+      "gh-pages": "^2.1.1",
+      "react": "^16.8.6",
+      "react-dom": "^16.8.6",
+      "react-router-dom": "^5.0.1",
+      "react-scripts": "3.0.1"
+    },
+    "scripts": {
+      "start": "react-scripts start",
+      "build": "react-scripts build",
+      "test": "react-scripts test",
+      "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+     "deploy": "gh-pages -d build",
+    },
+    "eslintConfig": {
+      "extends": "react-app"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

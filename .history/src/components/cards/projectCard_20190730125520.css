@@ -1,0 +1,81 @@
+.project-card {
+  border: 1px solid black;
+  /* width: 20vw;
+  height: 30vh; */
+  display: flex;
+  justify-content: center;
+}
+
+.main-project {
+  text-align: center;
+  background: red;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 2vh 5px;
+}
+
+/* .main-project :hover {
+  color: black;
+} */
+
+.game {
+  text-align: center;
+  background: green;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 2vh 5px;
+}
+
+/* .game :hover{
+
+} */
+
+.codepen {
+  text-align: center;
+  background: yellow;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 2vh 5px;
+}
+
+/* .codepen :hover{
+  
+} */
+
+.proof-of-concept {
+  background: white;
+  border: 1px solid black;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 400px;
+  height: 284px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  margin: 2vh 5px;
+}
+
+/* .proof-of-concept :hover{
+  
+} */

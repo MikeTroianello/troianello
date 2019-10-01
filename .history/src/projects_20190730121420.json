@@ -1,0 +1,64 @@
+[
+  {
+    "title": "Paint Shooter Game",
+    "url": "https://miketroianello.github.io/Paint/paint.html",
+    "image": "",
+    "alt": "Paint Shooter Screenshot",
+    "description": "",
+    "category": "game",
+    "technologies": ["HTML", "CSS3", "JavaScript", "Canvas"]
+  },
+  {
+    "title": "HotSpot",
+    "url": "https://hotspot-map.herokuapp.com",
+    "image": "",
+    "alt": "HotSpot Screenshot",
+    "description": "",
+    "category": "main-project",
+    "technologies": [
+      "HTML",
+      "CSS3",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Handlebars",
+      "Google Maps API"
+    ]
+  },
+  {
+    "title": "IronQuest",
+    "url": "https://ironquest.herokuapp.com",
+    "image": "https://res.cloudinary.com/dzjvkftwx/image/upload/v1562860932/folder-name/Ironquest-blue.png.png",
+    "alt": "IronQuest Logo",
+    "description": "",
+    "category": "main-project",
+    "technologies": [
+      "HTML",
+      "CSS3",
+      "JavaScript",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React"
+    ]
+  },
+  {
+    "title": "Rainbow Day",
+    "url": "https://codepen.io/mktro/pen/NQrPGy",
+    "image": "",
+    "alt": "Rainbow Day Screenshot",
+    "description": "",
+    "category": "codepen",
+    "technologies": ["CSS3", "JavaScript"]
+  },
+  {
+    "title": "Canvas Bubbles",
+    "url": "https://codepen.io/mktro/pen/bXqgzP",
+    "image": "",
+    "alt": "Canvas Bubbles Screenshot",
+    "description": "",
+    "category": "codepen",
+    "technologies": ["CSS3", "JavaScript", "Canvas"]
+  }
+]

@@ -1,0 +1,245 @@
+:root {
+  --off-black: #131313;
+  --off-white: #f2eeee;
+}
+
+.App {
+  font-family: 'roboto';
+}
+@import url('https://fonts.googleapis.com/css?family=Chivo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2:800&display=swap');
+
+/* .App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+} */
+  /* align-items: center; */
+  /* color: white; */
+
+
+body {
+  padding-top: 47px;
+}
+
+div {
+  font-size: 20px;
+}
+
+p {
+  margin-left: 4em;
+  color: var(--off-black);
+}
+
+
+
+/* HOME PAGE */
+
+.home-bg {
+  font-size: 12px;
+}
+
+.link {
+  /* margin-left: 15em; */
+  text-align: center;
+  margin: 5vh 0;
+}
+
+.link a {
+  color: var(--off-white);
+  background-color: #0091a0;
+  border-style: solid;
+  border-color: #a2d7dc;
+  border-radius: 12px;
+  border-width: 2px;
+  font-size: 1.75em;
+  padding: 0.5em;
+  /* border-radius: 5px; */
+}
+
+.link :hover {
+  background-color: #46a8ba;
+}
+
+.home-top {
+  background-color: #0091a0;
+  height: 65vh;
+  width: 100%;
+  transform: skewY(-5deg);
+  margin-top: -5vh;
+  padding: 0;
+}
+
+.home-top h1 {
+  text-align: center;
+  color: var(--off-white);
+  font-size: 5em;
+  padding-left: 0.6em;
+  padding-top: 0.8em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  transform: skewY(5deg);
+  text-shadow: 1px 1px 1px #007783;
+}
+
+.home-top h2 {
+  text-align: center;
+  color: var(--off-white);
+  padding-left: 0.6em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  transform: skewY(5deg);
+  text-shadow: 1px 1px 1px #007783;
+}
+
+.home-typewriter-setup {
+  /* position: relative;
+    width: 29em;
+    margin: 0 auto;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden; */
+  position: relative;
+  width: 24em;
+  margin: 10vh auto;
+  border-right: 3px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.home-typewriter-animation {
+  animation: typewriter 4s steps(65) 1s 1 normal both,
+    blinkTextCursor 1000ms steps(40) infinite normal;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 29.5em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+.home-fade1 {
+  height: 2vh;
+  width: 100%;
+  background-color: #a2d7dc;
+  transform: skewY(-5deg);
+  margin-top: -1vh;
+}
+
+/* .link {
+  margin-bottom: 2px;
+} */
+
+.home-project-box{
+  display: flex;
+  overflow-x: scroll;
+  text-decoration:none;
+  justify-content: flex-start;
+}
+
+.home-project-button {
+}
+
+.home-fade2 {
+  height: 1vh;
+  width: 100%;
+  background-color: #e1e3e5;
+  /* margin-top: -1vh; */
+}
+
+.home-about {
+  height: 105vh;
+  background: url('./components/images/pics/album-pics/thumbnail-3.jpg')
+    no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -30vh;
+  /* background-repeat: no-repeat; */
+  /* background-color: #909a9f; */
+}
+
+.home-about h1 {
+  color: var(--off-white);
+  font-size: 4.25em;
+  margin-left: 1.25em;
+}
+
+.home-projects {
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+.home-projects h1 {
+  color: var(--off-black);
+  font-size: 2em;
+  text-align: center;
+}
+
+.home-projects h3 {
+  color: var(--off-black);
+  text-align: center;
+}
+
+.home-album-text {
+  mix-blend-mode: difference;
+}
+
+.home-contact {
+  height: 50vh;
+}
+
+.home-contact h1 {
+  font-size: 4.5em;
+  margin-left: 1em;
+  color: var(--off-white);
+}
+
+/* PROJECTS PAGE */
+
+.projects {
+  background-color: #1c7787;
+  color: var(--off-white);
+  padding-top: 3em;
+  overflow: hidden;
+  min-height: 97.45vh;
+}
+
+.project-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-decoration: none;
+  /* margin: 1vh 0; */
+}
+
+.projects-title {
+  text-align: center;
+}
+
+.projects-technologies {
+  padding: 10vh 0 0 1.33vw;
+  background-color: #1c7787;
+  border-right: 1.5px solid black;
+}
+
+.links {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

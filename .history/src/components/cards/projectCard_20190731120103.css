@@ -1,0 +1,164 @@
+.project-card {
+  border: 1px solid black;
+  /* width: 20vw;
+  height: 30vh; */
+  display: flex;
+  justify-content: center;
+}
+
+.Full-Stack-Web-App {
+  background: red;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .main-project :hover {
+  color: black;
+} */
+
+.Game {
+  background: green;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .game :hover{
+
+} */
+
+.Codepen {
+  background: yellow;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .codepen :hover{
+  
+} */
+
+.Proof-of-Concept {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .proof-of-concept :hover{
+  
+} */
+
+.project-card-image {
+  border: 2px solid black;
+  width: 315px;
+  height: 135px;
+  background-color: gray;
+}
+
+.project-card-description {
+  margin: 0;
+  font-size: 21px;
+}
+
+.project-card-list {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* FOR RAINBOW DAY ONLY */
+.project-card-image-rainbow {
+  border: 2px solid black;
+  width: 315px;
+  height: 135px;
+  background-color: white;
+  margin: 0px auto;
+}
+
+.color-bar {
+  width: 75.6%;
+  margin: 16% auto;
+  background: linear-gradient(
+    to right,
+    red,
+    orange,
+    #fde541,
+    green,
+    blue,
+    indigo,
+    violet
+  );
+  -webkit-background-clip: text;
+}
+
+.black-bar {
+  background: black;
+  -webkit-background-clip: text;
+  animation: loading 10s infinite;
+}
+
+#day {
+  white-space: nowrap;
+  position: static;
+  color: transparent;
+}
+
+@keyframes loading {
+  from {
+    left: 0;
+    width: 100%;
+  }
+  2% {
+    left: 0;
+    width: 100%;
+  }
+  7% {
+    left: 0;
+    width: 0;
+  }
+  19% {
+    left: 0;
+    width: 0;
+  }
+  25% {
+    left: 0;
+    width: 100%;
+  }
+  100% {
+    left: 0;
+    width: 100%;
+  }
+}

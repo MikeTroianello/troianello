@@ -1,0 +1,16 @@
+@media (min-width: 400px) and(max-width: 500px) {
+  .individual-link {
+    margin: 0 1vh !important;
+  }
+}
+/* @media (min-width: 363px) and(max-width:393px) {
+  .individual-link {
+    margin: 0 2vh !important;
+  }
+} */
+
+@media (max-width: 362px) {
+  .individual-link {
+    margin: 0 1vh !important;
+  }
+}

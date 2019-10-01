@@ -1,0 +1,34 @@
+[
+  {
+    "title": "Paint Shooter Game",
+    "url": "https://miketroianello.github.io/Paint/paint.html",
+    "image": "",
+    "description": "",
+    "category": "game",
+    "technologies": []
+  },
+  {
+    "title": "HotSpot",
+    "url": "https://hotspot-map.herokuapp.com",
+    "image": "",
+    "description": "",
+    "category": "main-project",
+    "technologies": []
+  },
+  {
+    "title": "IronQuest",
+    "url": "https://ironquest.herokuapp.com",
+    "image": "",
+    "description": "",
+    "category": "main-project",
+    "technologies": []
+  },
+  {
+    "title": "Rainbow Day",
+    "url": "https://codepen.io/mktro/pen/NQrPGy",
+    "image": "",
+    "description": "",
+    "category": "codepen",
+    "technologies": ["CSS3", "JavaScript"]
+  }
+]

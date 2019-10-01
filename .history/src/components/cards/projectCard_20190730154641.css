@@ -1,0 +1,95 @@
+.project-card {
+  border: 1px solid black;
+  /* width: 20vw;
+  height: 30vh; */
+  display: flex;
+  justify-content: center;
+}
+
+.main-project {
+  background: red;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .main-project :hover {
+  color: black;
+} */
+
+.game {
+  background: green;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .game :hover{
+
+} */
+
+.codepen {
+  background: yellow;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .codepen :hover{
+  
+} */
+
+.proof-of-concept {
+  background: white;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  /* width: 20vw;
+  height: 30vh; */
+  width: 420px;
+  height: 420px;
+  color: var(--off-black);
+  justify-content: center;
+  margin: 2vh 5px;
+  padding: 0;
+}
+
+/* .proof-of-concept :hover{
+  
+} */
+
+.project-card-image {
+  border: 2px solid black;
+  padding: 0 15px;
+  width: 315;
+  height: 115px;
+}
+
+.project-card-description {
+  margin: 0;
+  font-size: 22px;
+}
